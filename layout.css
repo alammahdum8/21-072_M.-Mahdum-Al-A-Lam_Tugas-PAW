@@ -1,0 +1,39 @@
+body, h1, h2, p, td, a, span {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+/* background tengah */
+.cover {
+    background-color: rgb(230, 228, 212); border-style: outset; border-radius: 1.5%;
+    width: 40%;
+    color: black;
+    margin: 20px auto;
+    padding: 20px auto;
+    border-radius: 10px;
+}
+/* background luar */
+body{
+    background: rgb(149, 149, 149);
+}
+/* Tombol */
+button{
+    width: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 30px;
+    background-color:burlywood;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+}
+table{
+    margin: auto;
+    padding-bottom: 5px;
+}
+table td{
+    padding: 8px;
+}
+.string{
+    padding: 5px;
+    margin: 10%;
+}

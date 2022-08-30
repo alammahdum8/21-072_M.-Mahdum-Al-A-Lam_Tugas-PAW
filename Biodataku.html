@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="layout.css" rel="stylesheet" type="text/css">
+    <title>Hobi saya</title>
+</head>
+<BODY>
+    <div class="cover">
+        <h2>Biodata</h2>
+        <FORM name="biodata" method="post" action="simpan.php">
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td><input type="nama" name="Masukkan_Nama_Anda"/></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><input type="date" name="tanggal_lahir" ></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <input name="sex" type="radio" value="Perempuan">Perempuan<br>
+                        <input name="sex" type="radio" value="Laki_laki">Laki-Laki<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>No telefon</td>
+                    <td>:</td>
+                    <td><input type="number" name="no_telefon"></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td><textarea name="alamat"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button type="submit" name="Simpan">Simpan</button>
+                        <button  type="reset" name="Batal">Batal</button>
+                    </td>
+            </table>
+        </FORM>
+    </div>
+</BODY>
+</HTML>
